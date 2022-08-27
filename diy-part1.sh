@@ -16,6 +16,7 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 mkdir openwrt-packages
 cd openwrt-packages
 git clone https://github.com/zengtengchn/luci-app-ssr-plus.git
+git clone https://github.com/zengtengchn/luci-app-adguardhome.git
 
 # Add a feed source
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
