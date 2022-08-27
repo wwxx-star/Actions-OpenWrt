@@ -60,16 +60,6 @@ jobs:
         df -hT $PWD
         git clone $REPO_URL -b $REPO_BRANCH openwrt
         ln -sf /workdir/openwrt $GITHUB_WORKSPACE/openwrt
-        
-    - name: 自定义插件主题
-      run: |
-        cd package
-        mkdir openwrt-packages
-        cd openwrt-packages
-        git clone https://github.com/zengtengchn/luci-app-ssr-plus.git
-        git clone https://github.com/zengtengchn/luci-app-adguardhome.git
-        git clone https://github.com/pymumu/smartdns.git
-        git clone https://github.com/pymumu/luci-app-smartdns.git
 
     - name: Load custom feeds
       run: |
