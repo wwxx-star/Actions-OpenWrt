@@ -17,6 +17,7 @@ mkdir openwrt-packages
 cd openwrt-packages
 git clone https://github.com/zengtengchn/luci-app-ssr-plus.git
 git clone https://github.com/zengtengchn/luci-app-adguardhome.git
+git clone https://github.com/pymumu/smartdns.git
 
 # Add a feed source
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
