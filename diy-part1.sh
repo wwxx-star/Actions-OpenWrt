@@ -13,6 +13,7 @@
 # Uncomment a feed source
 sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
+cd packages
 mkdir openwrt-packages
 cd openwrt-packages
 git clone https://github.com/zengtengchn/luci-app-ssr-plus.git
