@@ -14,7 +14,7 @@
 sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Latest package
-git clone https://github.com/kenzok8/small-package.git package/openwrt-packages
+# git clone https://github.com/kenzok8/small-package.git package/openwrt-packages
 # Previous package
 # git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
 # Passwall dependency
