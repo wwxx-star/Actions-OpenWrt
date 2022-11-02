@@ -24,3 +24,6 @@ svn co https://github.com/Leo-Jo-My/luci-theme-opentomato/trunk package/luci-the
 #svn co https://github.com/kevin-morgan/luci-theme-argon-dark/trunk package/luci-theme-argon-dark
 #svn co https://github.com/openwrt/luci/trunk/themes/luci-theme-openwrt-2020 package/luci-theme-openwrt-2020
 svn co https://github.com/thinktip/luci-theme-neobird/trunk package/luci-theme-neobird
+
+./scripts/feeds update -a
+./scripts/feeds install -a
