@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build WNDR4300V2 OpenWrt
+name: Build WNDR4300 OpenWrt
 
 on:
   repository_dispatch:
