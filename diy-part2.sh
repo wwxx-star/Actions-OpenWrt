@@ -14,7 +14,7 @@
 sed -i 's/192.168.1.1/10.0.0.1/g' package/base-files/files/bin/config_generate
 
 #添加额外软件包
-svn co clone https://github.com/immortalwrt/luci-app-unblockneteasemusic/trunk package/luci-app-unblockneteasemusic
+#svn co clone https://github.com/immortalwrt/luci-app-unblockneteasemusic/trunk package/luci-app-unblockneteasemusic
 svn co clone https://github.com/jerrykuku/luci-app-jd-dailybonus/trunk package/luci-app-jd-dailybonus
 #git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
 svn co https://github.com/jerrykuku/lua-maxminddb/trunk package/lua-maxminddb
