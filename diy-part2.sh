@@ -11,7 +11,7 @@
 #
 
 # Modify default IP
-sed -i 's/192.168.1.1/10.0.0.1/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/10.0.1.1/g' package/base-files/files/bin/config_generate
 
 #添加额外软件包
 #svn co clone https://github.com/immortalwrt/luci-app-unblockneteasemusic/trunk package/luci-app-unblockneteasemusic
